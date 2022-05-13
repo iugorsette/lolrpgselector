@@ -1,0 +1,100 @@
+body {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+    width: 1200px;
+    height: 600px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+        -15px -15px 30px rgb(60, 60, 60);
+}
+
+.card select {
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.card h1 {
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.card h2 {
+    color: aliceblue;
+
+}
+
+.card p {
+    margin-left: 30px;
+    text-align: justify;
+    color: aliceblue;
+}
+
+.card img {
+    border-radius: 30px;
+    float: right;
+    margin: 0 auto;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+.card table {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card table th {
+    background-color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+.card table td {
+    background-color: darkgray;
+    font-weight: bold;
+    border-radius: 0 0 5px 5px ;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .card img {
+        border-radius: 30px;
+        position: fixed;
+        z-index: -1;
+        top: 0% ;
+        left: 0%;
+    }
+    .card {
+        text-align: center;
+        background:none;
+    }
+    .card h1 {
+        color: black;
+        margin-top: 20px;
+    }
+    
+    .card h2 {
+        color: black;
+    
+    }
+    
+    .card p {
+        margin-left: 30px;
+        text-align: justify;
+        color: black;
+    }
+  }
