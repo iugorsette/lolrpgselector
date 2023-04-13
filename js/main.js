@@ -8,7 +8,7 @@ elem.addEventListener('click', function () {
     switch (classe) {
         case 'arqueiro':
             if (gen == 'masculino') {
-                divTela.innerHTML = "<img src='../img/arqueiro/arqueiro.jpg' alt='arqueiro'>" +
+                divTela.innerHTML = "<img src='./img/arqueiro/arqueiro.jpg' alt='arqueiro'>" +
                     "<h2>O EXPLORADOR PRÓDIGO</h2>" +
                     "<p>Um aventureiro arrojado, com um talento nato nas artes mágicas, Ezreal desbrava catacumbas soterradas, envolve-se com antigas maldições e supera com facilidade as situações mais improváveis. Sua coragem e ousadia não têm limites e ele prefere resolver as coisas no improviso, confiando parcialmente no seu talento, mas principalmente em sua mística luva shurimane, que ele usa para causar explosões arcanas devastadoras. Uma coisa é certa: quando Ezreal está por perto, lá vem problema. Ou lá vai. Ou já veio.</p>" +
                     "<table>" +
@@ -42,7 +42,7 @@ elem.addEventListener('click', function () {
                     "    </tr>" +
                     "</table>";
             } else {
-                divTela.innerHTML = "<img src='../img/arqueiro/arqueira.jpg' alt='arqueira'>" +
+                divTela.innerHTML = "<img src='./img/arqueiro/arqueira.jpg' alt='arqueira'>" +
                     "<h2>A ARQUEIRA DO GELO</h2>" +
                     "<p>A mãe de guerra Glacinata da tribo de Avarosa, Ashe comanda a horda mais populosa do norte. Estoica, inteligente e idealista, mesmo que desconfortável com seu papel de liderança, ela canaliza as magias ancestrais de sua linhagem para empunhar um arco de Gelo Verdadeiro. Com a crença de seu povo de que Ashe seria a heroína mítica, Avarosa, reencarnada, ela espera unificar Freljord mais uma vez, retomando suas antigas terras tribais.</p>" +
                     "<table>" +
@@ -79,7 +79,7 @@ elem.addEventListener('click', function () {
             break;
         case 'guardiao':
             if (gen == 'masculino') {
-                divTela.innerHTML = "<img src='../img/guardiao/guardiao.jpg' alt='guardiao'>" +
+                divTela.innerHTML = "<img src='./img/guardiao/guardiao.jpg' alt='guardiao'>" +
                     "<h2>O CORAÇÃO DE FRELJORD</h2>" +
                     "<p>Abençoado com bíceps gigantescos e um coração maior ainda, Braum é um amado herói de Freljord. Cada salão de hidromel ao norte de Frostheld brinda sua força lendária que teria derrubado uma floresta de carvalhos em uma única noite e demolido uma montanha inteira com um soco. Carregando uma porta de cofre encantada como seu escudo, Braum vaga pelo norte congelado com seu sorriso abigodado tão grande quanto seus músculos, um verdadeiro amigo para os necessitados.</p>" +
                     "<table>" +
@@ -113,7 +113,7 @@ elem.addEventListener('click', function () {
                     "    </tr>" +
                     "</table>";
             } else {
-                divTela.innerHTML = "<img src='../img/guardiao/guardia.jpg' alt='guardia'>" +
+                divTela.innerHTML = "<img src='./img/guardiao/guardia.jpg' alt='guardia'>" +
                     "<h2>A ALVORADA RADIANTE</h2>" +
                     "<p>Impregnada pelas chamas do sol, Leona é uma guerreira sagrada de Solari que defende o Monte Targon com sua Lâmina Zênite e a Proteção da Aurora. Sua pele brilha com fogo solar enquanto seus olhos queimam com o poder do Aspecto celestial que nela existe. Protegida em uma armadura dourada e carregando o terrível fardo de um conhecimento ancestral, Leona traz luz a alguns e morte a outros.</p>" +
                     "<table>" +
@@ -151,7 +151,7 @@ elem.addEventListener('click', function () {
             break;
         case 'guerreiro':
             if (gen == 'masculino') {
-                divTela.innerHTML = "<img src='../img/guerreiro/guerreiro.jpg' alt='guerreiro'>" +
+                divTela.innerHTML = "<img src='./img/guerreiro/guerreiro.jpg' alt='guerreiro'>" +
                     "<h2>O PODER DE DEMACIA</h2>" +
                     "<p>Um guerreiro nobre e orgulhoso, Garen faz parte da Vanguarda Destemida. Popular entre seus" +
                     "    companheiros e respeitado o suficiente por seus inimigos, sua reputação é nada mais do que o" +
@@ -193,7 +193,7 @@ elem.addEventListener('click', function () {
 
             } else {
                 divTela.innerHTML =
-                    "<img src='../img/guerreiro/guerreira.jpg' alt='guerreira'>" +
+                    "<img src='./img/guerreiro/guerreira.jpg' alt='guerreira'>" +
                     "<h2>A EXILADA</h2>" +
                     "<p>Outrora mestra das espadas nos esquadrões de Noxus, agora Riven é uma expatriada em uma terra que um dia já tentou conquistar. Depois de alcançar os altos escalões do exército usando a força de sua convicção e sua brutal eficiência, ela foi recompensada com uma lâmina rúnica lendária e sua própria milícia. No entanto, no fronte ioniano, a fé de Riven em sua terra natal foi testada e, no fim, quebrada. Tendo cortado todos os laços com o império, agora ela busca seu lugar em um mundo devastado, mesmo diante de rumores de que a própria Noxus passou por uma transformação...</p>" +
 
@@ -231,7 +231,7 @@ elem.addEventListener('click', function () {
             break;
         case 'lutador':
             if (gen == 'masculino') {
-                divTela.innerHTML = "<img src='../img/lutador/lutador.jpg' alt='lutador'> " +
+                divTela.innerHTML = "<img src='./img/lutador/lutador.jpg' alt='lutador'> " +
                     "<h2>O CHEFE</h2>" +
                     "<p>Líder de parte do próspero submundo do crime em Ionia, Sett deve todo o seu sucesso à guerra contra Noxus. Mesmo estreando como um simples desafiante nas arenas de combate em Navori, ele logo conquistou notoriedade com sua força bruta e capacidade de suportar dor contínua e extrema. Agora, após superar todos os combatentes locais, Sett chegou até o topo e reina sobre as arenas onde um dia lutara.</p>" +
                     "<table>" +
@@ -265,7 +265,7 @@ elem.addEventListener('click', function () {
                     "    </tr>" +
                     "</table>";
             } else {
-                divTela.innerHTML = "<img src='../img/lutador/lutadora.jpg' alt='lutadora'> " +
+                divTela.innerHTML = "<img src='./img/lutador/lutadora.jpg' alt='lutadora'> " +
                     "<h2>A DEFENSORA DE PILTOVER</h2>" +
                     "<p>Antiga criminosa das ruas violentas de Zaun, Vi é uma mulher temível, impulsiva e explosiva que tem muito pouco respeito por autoridades. Após ter crescido completamente só, Vi desenvolveu instintos de sobrevivência extremamente certeiros e um senso de humor extremamente ácido. Agora trabalhando com os Vigias de Piltover para manter a paz, ela porta poderosas manoplas hextec capazes de esmagar paredes e suspeitos com a mesma facilidade.</p>" +
                     "<table>" +
@@ -302,7 +302,7 @@ elem.addEventListener('click', function () {
             break;
         case 'mago':
             if (gen == 'masculino') {
-                divTela.innerHTML = "<img src='../img/mago/mago.jpg' alt='mago'>" +
+                divTela.innerHTML = "<img src='./img/mago/mago.jpg' alt='mago'>" +
                     "<h2>O MAGO RÚNICO</h2>" +
                     "<p>Considerado pela grande maioria como o mago mais habilidoso de Runeterra, Ryze é um arquimago ancião e amargo que carrega um enorme peso. Dotado de um enorme poder arcano e de uma notável estrutura física, ele busca incansavelmente pelas Runas Globais, que são fragmentos de magia pura que um dia criaram o mundo a partir do nada. Ele deve recuperar esses artefatos antes que eles caiam em mãos erradas, pois Ryze conhece bem os horrores que eles podem infligir em Runeterra.</p>" +
                     "<table>" +
@@ -336,7 +336,7 @@ elem.addEventListener('click', function () {
                     "    </tr>" +
                     "</table>";
             } else {
-                divTela.innerHTML = "<img src='../img/mago/maga.jpg' alt='maga'>" +
+                divTela.innerHTML = "<img src='./img/mago/maga.jpg' alt='maga'>" +
                     "<h2>A DAMA DA LUZ</h2>" +
                     "<p>Luxanna Stemmaguarda nasceu em Demacia, um reino insular onde habilidades mágicas são vistas com medo e desconfiança. Capaz de dobrar a luz à sua vontade, ela cresceu temendo ser descoberta e exilada, e foi forçada a manter seus poderes em segredo a fim de preservar o status de nobreza de sua família. Apesar de tudo, o otimismo e resiliência de Lux a levaram a aceitar seus talentos únicos e agora ela os utiliza em segredo a serviço de sua terra natal.</p>" +
                     "<table>" +
